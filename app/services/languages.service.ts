@@ -20,7 +20,7 @@ export default class LanguagesService {
   private messages: LANGUAGE = {
     en: {
       LOGIN: '',
-      LOGOUT: '',
+      LOGOUT: 'User logged out',
       FOUND_SKILL: 'No skills found',
       DELETE_SKILL: 'Skill remove successfully.',
       FOUND_CATEGORY: 'No category found',
@@ -31,7 +31,7 @@ export default class LanguagesService {
       DELETE_DEV_TYPE: 'Dev type remove successfully',
     },
     fr: {
-      LOGIN: '',
+      LOGIN: 'Utilisateur deconnecter',
       LOGOUT: '',
       FOUND_SKILL: 'Aucune competence trouver.',
       DELETE_SKILL: 'Competence supprimer avec succes.',
